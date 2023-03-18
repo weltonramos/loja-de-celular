@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('../imagens/banner_extendido_invertido1440x600.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 290px;
+    padding: 30px;
+}
+
+.container {
+    max-width: 1400px;
+    /* Largura máxima do container */
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.descricao-produto {
+    padding: 50px 15px;
+    float: left;
+    width: 50%;
+}
+
+.descricao-produto h3 {
+    color: gray;
+    font-size: 23px;
+}
+
+.descricao-produto p {
+    margin-top: 15px;
+}
+
+.clear {
+    /* ToDo: Pesquisar o que é essa bagaça */
+    /* Explicação professor: Impede que os elementos flutuem de ambos os lados*/
+    clear: both;
+}
+
+.logo {
+    position: relative;
+    background-image: url('../imagens/logo_135x135.png');
+    background-size: 100% 100%;
+    /* Faz com que a imagem se adeque 100% na horizontal e vertical */
+    width: 132px;
+    height: 35px;
+    float: left;
+    /* Alinha o item para a esquerda */
+}
+
+nav.desktop {
+    float: right;
+    /* Alinha o item para a direita */
+}
+
+nav.desktop ul {
+    list-style-type: none;
+    /* Desativando os marcadores dos itens da lista */
+}
+
+nav.desktop li {
+    display: inline;
+    /* Coloca os itens da lista em linha */
+    margin: 0 15px;
+    /* Separa os elementos da lista */
+}
+
+nav.desktop a {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    color: gray;
+}
+
+nav li.btn-orcamento {
+    padding: 3px 8px;
+    border-radius: 50%;
+}
+
+div.chamada-mkt {
+    padding: 120px 0;
+}
+
+div.chamada-mkt h2 {
+    font-size: 45px;
+    color: gray;
+    margin-top: 30px;
+}
+
+.chamada-mkt p {
+    font-size: 19px;
+    text-align: 200px;
+}
+
+.chamada-mkt form {
+    margin-top: 15px;
+}
+
+.chamada-mkt input[type=email] {
+    width: 250px;
+    height: 45px;
+    border-radius: 100px;
+    background-color: white;
+    border: 0px;
+    padding-left: 13px;
+}
+
+.chamada-mkt input[type=submit] {
+    background-color: rgb(207, 238, 248);
+    border-radius: 100px;
+    width: 100px;
+    height: 45px;
+    cursor: pointer;
+    border: 0px;
+}
+
+.sessao-01 {
+    text-align: center;
+    padding: 30px 0;
+    background: linear-gradient(lightgray, white, lightgray);
+}
+
+.sessao-01 img {
+    width: 40%;
+    float: left;
+    max-width: 500px;
+}
+
+section div.container {
+    max-width: 1200px;
+}
+
+.sessao-02 {
+    margin-bottom: 50px;
+    background: linear-gradient(lightgray, white, lightgray);
+}
+
+.sessao-02 > .container {
+    bottom: -30%;
+}
+
+.feedback {
+    position: absolute;
+    /* Elemento ficará na frente de qualquer outro  */
+    left: 50%;
+    width: 70%;
+    background: rgb(230, 248, 253);
+    bottom: -30%;
+    max-width: 500px;
+    padding: 45px;
+    box-shadow: 0 9px 20px 0 rgba(0, 4, 7, 0.9);
+}
+
+.feedback cite {
+    font-size: 19px;
+    color: gray;
+    font-weight: bold;
+}
+
+.sessao-03 {
+    background: linear-gradient(lightgray, white, lightgray);
+}
+
+.imagens {
+    position: relative;
+    width: 30%;
+    height: 100px;
+    display: inline-block;
+    margin-top: 10px;
+    color: gray;
+    font-size: 20px;
+}
+
+footer {
+    background: linear-gradient(lightgray, white, lightgray);
+}
