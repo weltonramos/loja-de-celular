@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caiu do Caminhão - Smartphones</title>
+    <title>SmartShop - Smartphones</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
 </head>
@@ -23,10 +23,20 @@
                 <nav class="desktop"> <!-- Criando uma barra de navegação -->
 
                     <ul>
-                        <li><a href=""><strong>Sobre</strong></a></li>
-                        <li><a href=""><strong>Serviços</strong></a></li>
+                        <li><a href="#sobre"><strong>Sobre</strong></a></li>
+                        <li><a href="#produtos"><strong>Produtos</strong></a></li>
                         <li><a href=""><strong>Contato</strong></a></li>
-                        <li class="btn-orcamento"><a href=""><strong>Quero um orçamento</strong></a></li>
+                    </ul>
+
+                </nav>
+
+                <nav class="mobile">
+
+                    <ul>
+                        <li><a href="">Sobre</a></li>
+                        <li><a href="">Serviços</a></li>
+                        <li><a href="">Contato</a></li>
+                        <li><a href=""></a></li>
                     </ul>
 
                 </nav>
@@ -35,9 +45,9 @@
 
             <div class="chamada-mkt">
 
-                <h2>Smartphones top de linha.</h2>
+                <h2>SmartShop</h2>
 
-                <p>Os ultimos lançamentos a preços imperdiveis</p>
+                <p>SmartPhones top de linha</p>
 
                 <form action=""> <!-- Tag principal do HTML5 para a criacao de um formulario. 
                     O atributo action espera os parametros que vem do backend -->
@@ -68,7 +78,8 @@
 
             </div>
 
-            <img src="imagens/celular_google_pixel-497x269_transparente.png" alt="Google Pixel" title="Google Pixel">
+            <img src="imagens/redimensionadas/celular_google_pixel-497x269_transparente.png" alt="Google Pixel"
+                title="Google Pixel">
             <!--
                 Atributo alt: Se a imagem não é carregada, exibe esse texto no lugar
                 Atributo title: Exibe esse texto quando o mouse passa por cima da imagem
@@ -80,7 +91,7 @@
 
     </section>
 
-    <section class="sessao-02"> <!-- Sessão é usado para separar divs em setores para melhor organização -->
+    <section class="sessao-02" id="sobre"> <!-- Sessão é usado para separar divs em setores para melhor organização -->
 
         <div class="container">
 
@@ -89,36 +100,40 @@
                 <cite>
                     Uma grande variedade de marcas e modelos, nunca pensei que houvesse uma loja com tamanho acervo
                     de
-                    smartphones, mesmo os mais novos e exclusivos lançamentos podem ser encontrados com facilidade e
+                    smartphones, mesmo os mais novos e exclusivos lançamentos podem ser encontrados com facilidade a
                     pronta entrega.
                 </cite>
 
             </div>
 
-            <img src="imagens/depoimento_940x340_invertido.jpg.png">
+            <img src="imagens/redimensionadas/depoimento_940x340_invertido.jpg.png">
 
         </div>
 
     </section>
 
-    <section class="sessao-03"> <!-- Sessão é usado para separar divs em setores para melhor organização -->
+    <section class="sessao-03" id="produtos">
+        <!-- Sessão é usado para separar divs em setores para melhor organização -->
+
+        <h2>Veja nossos modelos</h2>
 
         <div class="container">
 
             <div class="imagens">
-                <img src="imagens/celular_motorola_edge40-300x152_transparente.png" alt="Motorola Edge 40"
+                <img src="imagens/redimensionadas/motorola_edge40-300x152_transparente.png" alt="Motorola Edge 40"
                     title="Motorola Edge 40">
-                    <h1>Motorola Edge 40</h1>
+                <a href="motorola.html">Motorola</a>
             </div>
 
             <div class="imagens">
-                <img src="imagens/celular_samsung_s23-300x152_transparente.png" alt="Samsung S23" title="Samsung S23">
-                <h1>Samsung S23</h1>
+                <img src="imagens/redimensionadas/celular_samsung_s23-300x152_transparente.png" alt="Samsung S23"
+                    title="Samsung S23">
+                <a href="samsung.html">Samsung</a>
             </div>
 
             <div class="imagens">
-                <img src="imagens/celular_xiaomi_11t-300x152.png" alt="Xiaomi 11T" title="Xiaomi 11T">
-                <h1>Xiaomi 11T</h1>
+                <img src="imagens/redimensionadas/celular_xiaomi_11t-300x152.png" alt="Xiaomi 11T" title="Xiaomi 11T">
+                <a href="xiaomi.html">Xiaomi</a>
             </div>
 
         </div>
@@ -127,7 +142,11 @@
 
     <footer>
 
-        Teste
+        <p>
+            CNPJ: 75.225.154/0001-80
+        <address>Rua das Pedras, 423 - Santa Ifigênia - SP</address>
+
+        </p>
 
     </footer>
 
